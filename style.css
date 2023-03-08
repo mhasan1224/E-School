@@ -1,0 +1,41 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+
+}
+h1,h2,h3,h4,h5,h6{
+
+}
+#top-banner{
+    background-color: #f1fff0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 1px solid;
+    height: 100vh;
+}
+.banner-container{
+    padding-left: 8%;
+    padding-top: 4%;
+}
+.banner-contents{
+    width: 45%;
+    margin: 1%;
+    float: left;
+    border: 1px solid;
+}
+.banner-contents img{
+    width: 100%;
+}
+/* Image 1 */
+
+position: absolute;
+width: 1241.5px;
+height: 2048px;
+
+background: url(Image.png);
+
+
+
