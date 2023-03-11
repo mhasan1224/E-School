@@ -72,18 +72,3 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 33px;
 }
-.feature-section{
-    width: 1440px;
-    height: 100vh;
-    left: -10px;
-    top: -3px;
-    background-color: #1ad71a;
-}
-.feature-content{
-    width: 270px;
-    height: 270px;
-    left: 135px;
-    top: 618px;
-    background: #13221a;
-    border-radius: 10px;
-}
