@@ -1,40 +1,22 @@
 
-/*font-family: 'Poppins', sans-serif;
-.navbar{
-    position: absolute;
-    width: 1380px;
-    height: 125px;
-    left: 20px;
-    top: 0px}*/
-.navbar-light .navbar-nav .nav-link{
+body{
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color: #000;
-    font-size: 16px;
-    line-height: 24px;
 }
-.navbar-light .navbar-nav .nav-link:hover{
-    color: #56548C;
-}
+
+
 .hero-section{
-    position: absolute;
-    width: 1440px;
-    min-height: 100vh;
-    left: -10px;
-    top: -3px;
     background-color: #F0FFF0;
-    margin-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 20px;
 }
 .navbar-brand img{
     width: 25%
-
 }
 .hero-content{
-
+    padding-right: 150px;
 }
 .hero-content h1{
-    font-family: 'Poppins';
-    font-style: normal;
     color: #000000;
     font-weight: 700;
     font-size: 48px;
@@ -44,8 +26,6 @@
     color:#21B573;
 }
 .hero-content h5{
-    font-family: 'Poppins';
-    font-style: normal;
     color: #FD511A;
     font-weight: 400;
     font-size: 16px;
@@ -53,15 +33,12 @@
 }
 .hero-content p{
     color: #000000;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 36px;
 }
 .btn-custom{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -71,4 +48,34 @@
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 33px;
+}
+.feature-content{
+    width: 270px;
+    height: 270px;
+    left: 135px;
+    top: 618px;
+    background: #f8fff8;
+    border-radius: 10px;
+}
+.feature-content img{
+    height: 85px;
+    left: 231px;
+}
+.feature-content:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.feature-content h2{
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #413960;
+}
+.feature-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+
 }
